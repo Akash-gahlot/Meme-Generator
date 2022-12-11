@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,116 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.header {
+  display: flex;
+  color: white;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  border-radius: 3px;
+  padding: 20px;
+  height: 65px;
+}
+.trollface {
+  height: 100%;
+  margin-right: 6px;
+}
+.memeheading {
+  margin-left: auto;
+}
+main {
+  padding: 50px;
+}
+.memeForm {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 5px;
+}
+.formInput {
+  border-radius: 5px;
+  border: 1px solid rgb(214, 209, 209);
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 6px;
+  font-size: 20px;
+}
+
+.formButton {
+  color: white;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  grid-column: 1/-1;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  cursor: pointer;
+}
+.meme {
+  position: relative;
+}
+.memeImage {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+.last-button {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.downloadbutton {
+  margin-left: 30px;
+}
+.footer {
+  display:flex;
+  justify-content: center;
+  color: white;
+  border-radius: 3px;
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0 50vh 0 50vh #a626d3;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+
+}
+
+a{
+  color: white;
 }
