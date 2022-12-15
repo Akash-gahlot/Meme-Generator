@@ -87,7 +87,7 @@ main {
 .memeImage {
   margin-top: 20px;
   max-width: 100%;
-  border-radius: 3px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
 }
@@ -147,4 +147,8 @@ main {
 
 a{
   color: white;
+}
+.meme{
+  display: flex;
+  justify-content: center;
 }
